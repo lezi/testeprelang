@@ -1,4 +1,5 @@
 ActiveAdmin.register Student do
+  permit_params :nome
 
 
   # See permitted parameters documentation:
